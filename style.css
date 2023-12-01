@@ -1,0 +1,15 @@
+@import url(estilos/reset.css);
+@import url(estilos/header.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+:root {
+    --branco: #FFFFFF;
+    --vermelho-escuro: #8E2424;
+    --cinza: #667085;
+    --cinza-escuro: #3A404E;
+}
+
+body {
+    background-color: var(--branco);
+    font-family: 'Inter', sans-serif;
+}

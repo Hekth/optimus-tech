@@ -1,0 +1,45 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 7rem;
+}
+
+.cabecalho__logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+}
+
+.cabecalho__menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 23.75rem;
+}
+
+.lista__link, .botao__entrar {
+    color: var(--cinza);
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.cabecalho__botao {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.botao__cadastrar {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0.75rem 1.125rem;
+    background-color: var(--vermelho-escuro);
+    color: var(--branco);
+    border-radius: 0.5rem;
+}
+
