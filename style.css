@@ -1,5 +1,7 @@
 @import url(estilos/reset.css);
 @import url(estilos/header.css);
+@import url(estilos/banner.css);
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
 :root {
@@ -7,9 +9,11 @@
     --vermelho-escuro: #8E2424;
     --cinza: #667085;
     --cinza-escuro: #3A404E;
+    --preto: #101828;
 }
 
 body {
     background-color: var(--branco);
     font-family: 'Inter', sans-serif;
+    width: 100vw;
 }
