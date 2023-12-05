@@ -1,7 +1,7 @@
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem 7rem;
+    padding: 1.5rem 8%;
 }
 
 .cabecalho__logo {
@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     gap: 2rem;
-    margin-right: 23.75rem;
+    padding-right: 30%;
 }
 
 .lista__link, .botao__entrar {
