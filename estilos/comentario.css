@@ -1,0 +1,37 @@
+.comentario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 80vw;
+    text-align: center;
+    background-color: var(--vermelho-claro);
+    padding: 4rem;
+    margin: 6rem;
+    border-radius: 1rem;
+}
+
+.comentario__titulo {
+    color: var(--vermelho-escuro);
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.comentario__paragrafo {
+    font-size: 2.25rem;
+    font-weight: 500;
+    color: var(--preto);
+    margin-bottom: 1rem;
+}
+
+.comentario__autor {
+    color: var(--preto);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.comentario__cargo {
+    color: var(--cinza);
+    font-size: 0.875rem;
+}
