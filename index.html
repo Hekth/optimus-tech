@@ -8,16 +8,18 @@
 </head>
 <body>
     <header class="cabecalho">
-        <div class="cabecalho__logo">
-            <img src="images/logo.png" alt="logo da empresa optimus tech">
-            <h1>OptimusTech</h1>
+        <div class="cabecalho__container">
+            <div class="cabecalho__logo">
+                <img src="images/logo.png" alt="logo da empresa optimus tech">
+                <h1>OptimusTech</h1>
+            </div>
+            <ul class="cabecalho__menu">
+                <li class="menu__lista"><a class="lista__link" href="#">Home</a></li>
+                <li class="menu__lista"><a class="lista__link" href="#">Produtos</a></li>
+                <li class="menu__lista"><a class="lista__link" href="#">Recursos</a></li>
+                <li class="menu__lista"><a class="lista__link" href="#">Sobre nós</a></li>
+            </ul>
         </div>
-        <ul class="cabecalho__menu">
-            <li class="menu__lista"><a class="lista__link" href="#">Home</a></li>
-            <li class="menu__lista"><a class="lista__link" href="#">Produtos</a></li>
-            <li class="menu__lista"><a class="lista__link" href="#">Recursos</a></li>
-            <li class="menu__lista"><a class="lista__link" href="#">Sobre nós</a></li>
-        </ul>
         <div class="cabecalho__botao">
             <a class="botao__entrar" href="#">Entrar</a>
             <a class="botao__cadastrar" href="#">Cadastrar</a>
@@ -33,24 +35,28 @@
 
     <section class="topicos">
         <div class="topicos__container">
-            <p><strong class="container__strong">400+</strong></p>
-            <h2 class="container__titulo">Projetos concluídos</h2>
-            <p class="container__descricao">Nós ajudamos a construir mais de 400 projetos incríveis.</p>
+            <div>
+                <p><strong class="container__strong">400+</strong></p>
+                <h2 class="container__titulo">Projetos concluídos</h2>
+                <p class="container__descricao">Nós ajudamos a construir mais de 400 projetos incríveis.</p>
+            </div>
+            <div>
+                <p><strong class="container__strong">100+</strong></p>
+                <h2 class="container__titulo">Colaboradores</h2>
+                <p class="container__descricao">Temos mais de 100 colaboradores no nosso time que se preocupam com nossos clientes.</p>
+            </div>
         </div>
         <div class="topicos__container">
-            <p><strong class="container__strong">100+</strong></p>
-            <h2 class="container__titulo">Colaboradores</h2>
-            <p class="container__descricao">Temos mais de 100 colaboradores no nosso time que se preocupam com nossos clientes.</p>
-        </div>
-        <div class="topicos__container">
-            <p><strong class="container__strong">20k</strong></p>
-            <h2 class="container__titulo">Downloads</h2>
-            <p class="container__descricao">Nossos projetos que estão disponíveis em lojas já foram baixados mais de 20.000 vezes.</p>
-        </div>
-        <div class="topicos__container">
-            <p><strong class="container__strong">500+</strong></p>
-            <h2 class="container__titulo">Reviews 5 estrelas</h2>
-            <p class="container__descricao">Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em nossos produtos.</p>
+            <div>
+                <p><strong class="container__strong">20k</strong></p>
+                <h2 class="container__titulo">Downloads</h2>
+                <p class="container__descricao">Nossos projetos que estão disponíveis em lojas já foram baixados mais de 20.000 vezes.</p>
+            </div>
+            <div>
+                <p><strong class="container__strong">500+</strong></p>
+                <h2 class="container__titulo">Reviews 5 estrelas</h2>
+                <p class="container__descricao">Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em nossos produtos.</p>
+            </div>
         </div>
     </section>
     <section class="procurando-talentos">
@@ -121,5 +127,21 @@
             Desenvolvedora Web
         </small>
     </section>
+
+    <footer class="rodape">
+        <h2 class="rodape__titulo">
+            Acompanhe as nossas oportunidades
+        </h2>
+        <p class="rodape__texto">
+            Seja o primeiro a saber quando novas vagas serão abertas!
+        </p>
+        <form action="#" class="rodape__formulario">
+            <input class="rodape__campo-email" type="email" placeholder="Seu e-mail">
+            <button class="rodape__botao-submit" type="submit">Cadastrar</button>
+        </form>
+        <span class="rodape__direitos-reservados">
+            © 2022 OptimusTech. Todos os direitos reservados.
+        </span>
+    </footer>
 </body>
 </html>

@@ -1,12 +1,17 @@
 .topicos {
     display: flex;
-    justify-content: center;
-    gap: 2rem;
     margin-bottom: 6rem;
+    align-items: center;
 }
 
 .topicos__container {
-    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+}
+
+.topicos__container div {
+    width: 25%;
 }
 
 .container__strong {
@@ -27,4 +32,19 @@
     color: var(--cinza);
     font-weight: 400;
     line-height: 1.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .topicos {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .topicos__container {
+        width: 75vw;
+    }
+
+    .topicos__container div {
+        width: 40%;
+    }
 }

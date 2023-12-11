@@ -1,0 +1,67 @@
+.rodape {
+    text-align: center;
+    background-color: var(--cinza-muito-claro);
+    padding: 6rem  0;
+    width: 100vw;
+}
+
+.rodape__titulo {
+    font-weight: 600;
+    font-size: 2.25rem;
+    color: var(--preto);
+}
+
+.rodape__texto {
+    color: var(--cinza);
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 1.25rem 0 2.5rem 0;
+}
+
+.rodape__campo-email {
+    width: 20%;
+    padding: 0.875rem;
+    font-size: 1rem;
+    border: 1px solid var(--cinza-claro);
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    color: var(--cinza);
+}
+
+.rodape__campo-email::placeholder {
+    color: var(--cinza);
+    font-family: 'Inter', sans-serif;
+}
+
+.rodape__botao-submit {
+    background-color: var(--vermelho-escuro);
+    color: var(--branco);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.rodape__direitos-reservados {
+    display: block;
+    color: var(--cinza-pouco-claro);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .rodape__formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .rodape__campo-email, .rodape__botao-submit {
+        width: 40%;
+        box-sizing: border-box;
+        margin: 0;
+    }
+}

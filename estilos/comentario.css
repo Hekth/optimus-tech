@@ -8,7 +8,7 @@
     text-align: center;
     background-color: var(--vermelho-claro);
     padding: 4rem;
-    margin: 6rem;
+    margin: 6rem auto;
     border-radius: 1rem;
 }
 
@@ -23,6 +23,7 @@
     font-weight: 500;
     color: var(--preto);
     margin-bottom: 1rem;
+    width: 100%;
 }
 
 .comentario__autor {
